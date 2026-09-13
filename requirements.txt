@@ -1,0 +1,44 @@
+# Exact versions of the environment the reported results were produced in
+# (Python 3.10.2, Windows 11, CPU; the GPU run used the same versions on Colab
+# with a CUDA torch wheel). Verify your environment with:
+#
+#     python tools/check_env.py
+#
+# CPU install (what was used locally):
+#     python -m venv .venv
+#     .venv\Scripts\activate          # Windows
+#     source .venv/bin/activate       # Linux / macOS
+#     pip install -r requirements.txt
+#
+# GPU install: replace the torch line with the CUDA wheel for your driver,
+# e.g.  pip install torch --index-url https://download.pytorch.org/whl/cu121
+# then  pip install -r requirements.txt
+
+# --- deep learning ----------------------------------------------------------
+torch==2.10.0
+torch-geometric==2.8.0.post1
+transformers==5.17.0
+tokenizers==0.23.2
+huggingface-hub==1.31.0
+safetensors==0.8.0
+
+# --- audio ------------------------------------------------------------------
+librosa==0.11.0
+soundfile==0.14.0
+numba==0.63.1
+
+# --- scientific stack -------------------------------------------------------
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.6
+
+# --- plumbing ---------------------------------------------------------------
+pyyaml==6.0.3
+tqdm==4.70.1
+
+# --- optional ---------------------------------------------------------------
+# Task 4 on MusicCaps: the audio is not redistributable, so clips are pulled
+# from YouTube per-id. Only needed for `tools/fetch_data.py musiccaps`.
+# yt-dlp>=2024.1

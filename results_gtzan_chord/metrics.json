@@ -1,0 +1,55 @@
+{
+  "_provenance": {
+    "corpus": "gtzan",
+    "n_tracks": 999,
+    "num_tags": 10,
+    "graph_kind": "chord",
+    "segment_seconds": 2.5,
+    "split_sizes": {
+      "train": 699,
+      "val": 150,
+      "test": 150
+    },
+    "split_strategy": "grouped_by_artist",
+    "text_model": "distilbert-base-uncased",
+    "seed": 42
+  },
+  "task2_gnn_sage": {
+    "tag": "task2_gnn_sage",
+    "split": "test",
+    "threshold": 0.6000000000000001,
+    "val_macro_f1_at_threshold": 0.40326110482444505,
+    "best_val_score": 0.40326110482444505,
+    "best_epoch": 12,
+    "macro_f1": 0.35941240440637945,
+    "macro_f1_all_tags": 0.35941240440637945,
+    "micro_f1": 0.3788187372708757,
+    "micro_precision": 0.2727272727272727,
+    "micro_recall": 0.62,
+    "macro_precision": 0.27227867243800186,
+    "macro_recall": 0.6050000000000001,
+    "auc_pr": 0.36313197206049963,
+    "roc_auc": 0.8023241758241759,
+    "n_tags_scored": 10,
+    "n_samples": 150,
+    "graph_coherence": 0.9824037551879883,
+    "graph_edge_similarity": 0.9198739111423493,
+    "graph_non_edge_similarity": 0.8315019845962525,
+    "graph_coherence_lift": 0.0883719265460968,
+    "_provenance": {
+      "corpus": "gtzan",
+      "n_tracks": 999,
+      "num_tags": 10,
+      "graph_kind": "chord",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 699,
+        "val": 150,
+        "test": 150
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  }
+}

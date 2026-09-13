@@ -1,0 +1,35 @@
+# GTZAN -- the spec's corpus for Task 2 ("genre classification on GTZAN or
+# FMA-small"). 1,000 clips / 30 s / 10 genres.
+#
+# Run BASELINES and TASK 2 here. Tasks 1, 3 and 4 are degenerate on GTZAN:
+# its only text is the genre label, so the text branch trivially reproduces the
+# target (measured: Task 1 hit val Macro-F1 1.0000 in a single epoch). Use
+# configs/mtat.yaml for those.
+#
+#   python src/preprocess.py --config configs/gtzan.yaml
+#   python src/train.py baselines --config configs/gtzan.yaml
+#   python src/train.py task2 --config configs/gtzan.yaml
+extends: ../config.yaml
+
+paths:
+  processed: data/processed_gtzan
+  splits: data/splits_gtzan
+  results: results_gtzan
+  plots: results_gtzan/plots
+  retrieval: results_gtzan/retrieval_examples
+
+dataset:
+  source: gtzan
+  top_tags: 0             # all 10 genres
+  min_tag_count: 1
+  subsample: 0            # 1,000 clips is small enough to use whole
+  clip_seconds: 30.0
+  text_field: tags
+  text_tag_fraction: 0.0  # irrelevant here: run only baselines + Task 2
+  emotion: false
+
+audio:
+  segment_seconds: 2.5    # 12 nodes instead of 6 -- see configs/mtat.yaml
+
+split:
+  group_by: artist        # GTZAN ships no artist field; adapter uses clip index

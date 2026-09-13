@@ -1,0 +1,39 @@
+# DEAM -- continuous valence/arousal, the spec's auxiliary emotion target
+# (L_aux) and the source of the MAE / R^2 columns.
+#
+# 1,802 excerpts, 45 s each. Only Task 3 uses this: it is the multi-task arm
+#   L = L_tags + alpha*||v - v_hat||^2 + beta*||a - a_hat||^2
+# DEAM carries no tags, so the tagging term has almost nothing to learn here --
+# read the emotion metrics, not the F1.
+#
+#   python tools/fetch_data.py deam --extract
+#   python src/preprocess.py --config configs/deam.yaml
+#   python src/train.py task3 --config configs/deam.yaml --mode cross_attention
+extends: ../config.yaml
+
+paths:
+  processed: data/processed_deam
+  splits: data/splits_deam
+  results: results_deam
+  plots: results_deam/plots
+  retrieval: results_deam/retrieval_examples
+
+dataset:
+  source: deam
+  top_tags: 0
+  min_tag_count: 1
+  subsample: 0
+  clip_seconds: 45.0      # DEAM excerpts are 45 s
+  text_field: caption
+  text_tag_fraction: 0.0
+  emotion: true
+
+audio:
+  segment_seconds: 3.0    # 45 s / 3 s = 15 nodes
+
+train:
+  alpha_valence: 1.0      # emotion IS the task here, not an auxiliary
+  beta_arousal: 1.0
+
+split:
+  group_by: null          # one excerpt per song id; nothing to group

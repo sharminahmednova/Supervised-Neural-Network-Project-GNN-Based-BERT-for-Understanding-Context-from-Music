@@ -1,0 +1,10 @@
+corpus: gtzan  |  tracks: 999  |  tags: 10  |  graph: segment  |  segment: 2.5s
+split: {'train': 699, 'val': 150, 'test': 150} (grouped_by_artist)
+
+Model                      macro_f1    micro_f1      auc_pr    mae_mean    mean_R@5
+-----------------------------------------------------------------------------------
+B1: Random tags              0.1775      0.1786      0.1218           -           -
+B1: Tag prior                0.1801      0.1818      0.1344           -           -
+B4: PCA + MLP                0.4615      0.4982      0.5189           -           -
+B2: CNN mel-spec             0.3564      0.3830      0.4175           -           -
+Task 2: GNN-only (SAGE)      0.4456      0.4384      0.4846           -           -

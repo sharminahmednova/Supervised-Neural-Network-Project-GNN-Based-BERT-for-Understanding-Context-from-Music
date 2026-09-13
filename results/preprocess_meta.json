@@ -1,0 +1,46 @@
+{
+  "source": "gtzan",
+  "n_tracks": 999,
+  "graph_kind": "hybrid",
+  "node_feature_dim": 308,
+  "text_field": "tags",
+  "text_model": "distilbert-base-uncased",
+  "max_length": 32,
+  "num_tags": 10,
+  "text_tag_fraction": 0.0,
+  "text_coverage": 1.0,
+  "text_side_tags": [],
+  "label_side_tags": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "has_emotion": false,
+  "tag_counts": {
+    "blues": 100,
+    "classical": 100,
+    "country": 100,
+    "disco": 100,
+    "hiphop": 100,
+    "metal": 100,
+    "pop": 100,
+    "reggae": 100,
+    "rock": 100,
+    "jazz": 99
+  },
+  "avg_nodes": 17.49,
+  "avg_edges": 98.92,
+  "split_sizes": {
+    "train": 699,
+    "val": 150,
+    "test": 150
+  },
+  "split_strategy": "grouped_by_artist"
+}

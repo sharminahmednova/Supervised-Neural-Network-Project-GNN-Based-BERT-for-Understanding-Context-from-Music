@@ -1,0 +1,442 @@
+{
+  "task1_bert": {
+    "tag": "task1_bert",
+    "split": "test",
+    "threshold": 0.7000000000000001,
+    "val_macro_f1_at_threshold": 0.8280050756431123,
+    "best_val_score": 0.8280050756431123,
+    "best_epoch": 17,
+    "macro_f1": 0.8477926650329015,
+    "macro_f1_all_tags": 0.8221019782137227,
+    "micro_f1": 0.8645320197044335,
+    "micro_precision": 0.8775,
+    "micro_recall": 0.8519417475728155,
+    "macro_precision": 0.8605913653181532,
+    "macro_recall": 0.8477974809247149,
+    "auc_pr": 0.9198890845801528,
+    "roc_auc": 0.9562315346008096,
+    "n_tags_scored": 32,
+    "n_samples": 90,
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    }
+  },
+  "task2_gnn_sage": {
+    "tag": "task2_gnn_sage",
+    "split": "test",
+    "threshold": 0.4,
+    "val_macro_f1_at_threshold": 0.5848596989579048,
+    "best_val_score": 0.5848596989579048,
+    "best_epoch": 18,
+    "macro_f1": 0.6395693093881647,
+    "macro_f1_all_tags": 0.6201884212248869,
+    "micro_f1": 0.6347092765201953,
+    "micro_precision": 0.5003498950314905,
+    "micro_recall": 0.8677184466019418,
+    "macro_precision": 0.5467987541723633,
+    "macro_recall": 0.8478887041327905,
+    "auc_pr": 0.7116221558232755,
+    "roc_auc": 0.8296940871858558,
+    "n_tags_scored": 32,
+    "n_samples": 90,
+    "graph_coherence": 0.9983798861503601,
+    "graph_edge_similarity": 0.9207247793674469,
+    "graph_non_edge_similarity": 0.8213275969028473,
+    "graph_coherence_lift": 0.09939718246459961,
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    }
+  },
+  "task3_fusion_cross_attention": {
+    "tag": "task3_fusion_cross_attention",
+    "split": "test",
+    "threshold": 0.7000000000000001,
+    "val_macro_f1_at_threshold": 0.8201275776267003,
+    "best_val_score": 0.8201275776267003,
+    "best_epoch": 19,
+    "macro_f1": 0.8072459364876969,
+    "macro_f1_all_tags": 0.7827839384123121,
+    "micro_f1": 0.8509852216748769,
+    "micro_precision": 0.86375,
+    "micro_recall": 0.8385922330097088,
+    "macro_precision": 0.8370139191981713,
+    "macro_recall": 0.7957685110818981,
+    "auc_pr": 0.8854497160235297,
+    "roc_auc": 0.9493522711621543,
+    "n_tags_scored": 32,
+    "n_samples": 90,
+    "mae_valence": 1.0633242885271708,
+    "rmse_valence": 1.533094483322126,
+    "r2_valence": 0.36645880315717094,
+    "mae_arousal": 1.183757980664571,
+    "rmse_arousal": 1.7917257807834945,
+    "r2_arousal": 0.4943137012147639,
+    "mae_mean": 1.1235411345958708,
+    "fusion_mode": "cross_attention",
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    }
+  },
+  "task3_fusion_concat": {
+    "tag": "task3_fusion_concat",
+    "split": "test",
+    "threshold": 0.6000000000000001,
+    "val_macro_f1_at_threshold": 0.8479431534812981,
+    "best_val_score": 0.8479431534812981,
+    "best_epoch": 18,
+    "macro_f1": 0.8366453721265761,
+    "macro_f1_all_tags": 0.8112924820621343,
+    "micro_f1": 0.8713345302214243,
+    "micro_precision": 0.859504132231405,
+    "micro_recall": 0.883495145631068,
+    "macro_precision": 0.8381860926621866,
+    "macro_recall": 0.8516279155655733,
+    "auc_pr": 0.9083731484413191,
+    "roc_auc": 0.9533419460139603,
+    "n_tags_scored": 32,
+    "n_samples": 90,
+    "mae_valence": 1.0239137477344937,
+    "rmse_valence": 1.4468924824978446,
+    "r2_valence": 0.4357006638297064,
+    "mae_arousal": 1.180815593401591,
+    "rmse_arousal": 1.7889546238916767,
+    "r2_arousal": 0.4958767220798429,
+    "mae_mean": 1.1023646705680423,
+    "fusion_mode": "concat",
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    }
+  },
+  "task3_fusion_bert_only": {
+    "tag": "task3_fusion_bert_only",
+    "split": "test",
+    "threshold": 0.7000000000000001,
+    "val_macro_f1_at_threshold": 0.8110692041133213,
+    "best_val_score": 0.8110692041133213,
+    "best_epoch": 13,
+    "macro_f1": 0.8092683861637147,
+    "macro_f1_all_tags": 0.7847451017345112,
+    "micro_f1": 0.8358024691358025,
+    "micro_precision": 0.8505025125628141,
+    "micro_recall": 0.8216019417475728,
+    "macro_precision": 0.8393133731822275,
+    "macro_recall": 0.795102691906729,
+    "auc_pr": 0.8972463650287699,
+    "roc_auc": 0.9453687144383833,
+    "n_tags_scored": 32,
+    "n_samples": 90,
+    "mae_valence": 1.0864176392555236,
+    "rmse_valence": 1.4782163407685345,
+    "r2_valence": 0.41100308973339295,
+    "mae_arousal": 1.2895398139953613,
+    "rmse_arousal": 1.8537633460356717,
+    "r2_arousal": 0.45868921137923113,
+    "mae_mean": 1.1879787266254425,
+    "fusion_mode": "bert_only",
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    }
+  },
+  "task3_fusion_gnn_only": {
+    "tag": "task3_fusion_gnn_only",
+    "split": "test",
+    "threshold": 0.5,
+    "val_macro_f1_at_threshold": 0.5904613550997561,
+    "best_val_score": 0.5904613550997561,
+    "best_epoch": 20,
+    "macro_f1": 0.5889179106877931,
+    "macro_f1_all_tags": 0.5710719133942236,
+    "micro_f1": 0.6168132942326491,
+    "micro_precision": 0.516366612111293,
+    "micro_recall": 0.7657766990291263,
+    "macro_precision": 0.5297233585845277,
+    "macro_recall": 0.7585051898770754,
+    "auc_pr": 0.6503766730614662,
+    "roc_auc": 0.813640620101857,
+    "n_tags_scored": 32,
+    "n_samples": 90,
+    "mae_valence": 1.8233927766482034,
+    "rmse_valence": 2.1377316266354276,
+    "r2_valence": -0.23180903112964812,
+    "mae_arousal": 1.8989657269583808,
+    "rmse_arousal": 2.3576064196786186,
+    "r2_arousal": 0.12445048400108982,
+    "mae_mean": 1.8611792518032921,
+    "fusion_mode": "gnn_only",
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    }
+  },
+  "task3_ablation": {
+    "cross_attention": {
+      "macro_f1": 0.8072459364876969,
+      "micro_f1": 0.8509852216748769,
+      "auc_pr": 0.8854497160235297,
+      "mae_mean": 1.1235411345958708
+    },
+    "concat": {
+      "macro_f1": 0.8366453721265761,
+      "micro_f1": 0.8713345302214243,
+      "auc_pr": 0.9083731484413191,
+      "mae_mean": 1.1023646705680423
+    },
+    "bert_only": {
+      "macro_f1": 0.8092683861637147,
+      "micro_f1": 0.8358024691358025,
+      "auc_pr": 0.8972463650287699,
+      "mae_mean": 1.1879787266254425
+    },
+    "gnn_only": {
+      "macro_f1": 0.5889179106877931,
+      "micro_f1": 0.6168132942326491,
+      "auc_pr": 0.6503766730614662,
+      "mae_mean": 1.8611792518032921
+    },
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    }
+  },
+  "task4_contrastive": {
+    "tag": "task4_contrastive",
+    "split": "test",
+    "n_pairs": 90,
+    "audio2caption_R@1": 0.07777777777777778,
+    "audio2caption_R@5": 0.26666666666666666,
+    "audio2caption_R@10": 0.4222222222222222,
+    "audio2caption_median_rank": 12.5,
+    "audio2caption_mrr": 0.18100911901484895,
+    "caption2audio_R@1": 0.044444444444444446,
+    "caption2audio_R@5": 0.25555555555555554,
+    "caption2audio_R@10": 0.4222222222222222,
+    "caption2audio_median_rank": 14.0,
+    "caption2audio_mrr": 0.16882716211304727,
+    "mean_R@1": 0.061111111111111116,
+    "mean_R@5": 0.26111111111111107,
+    "mean_R@10": 0.4222222222222222,
+    "best_val_score": 0.16666666666666669,
+    "best_epoch": 14,
+    "zero_shot_macro_f1": 0.47258066218611866,
+    "zero_shot_micro_f1": 0.48997448049580755,
+    "zero_shot_auc_pr": 0.4706710982616996,
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    }
+  },
+  "_provenance": {
+    "corpus": "synthetic",
+    "n_tracks": 600,
+    "num_tags": 33,
+    "graph_kind": "segment",
+    "segment_seconds": 5.0,
+    "split_sizes": {
+      "train": 420,
+      "val": 90,
+      "test": 90
+    },
+    "split_strategy": "grouped_by_artist",
+    "text_model": "distilbert-base-uncased",
+    "seed": 42,
+    "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+  },
+  "baseline_b1_random": {
+    "tag": "baseline_b1_random",
+    "split": "test",
+    "macro_f1": 0.4075,
+    "micro_f1": 0.4286,
+    "auc_pr": 0.3098,
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    },
+    "_source": "recovered from results/full_run.log"
+  },
+  "baseline_b1_prior": {
+    "tag": "baseline_b1_prior",
+    "split": "test",
+    "macro_f1": 0.4148,
+    "micro_f1": 0.4344,
+    "auc_pr": 0.3122,
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    },
+    "_source": "recovered from results/full_run.log"
+  },
+  "baseline_b4_pca_mlp": {
+    "tag": "baseline_b4_pca_mlp",
+    "split": "test",
+    "macro_f1": 0.6853,
+    "micro_f1": 0.735,
+    "auc_pr": 0.7374,
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    },
+    "_source": "recovered from results/full_run.log"
+  },
+  "baseline_b2_melcnn": {
+    "tag": "baseline_b2_melcnn",
+    "split": "test",
+    "macro_f1": 0.6299,
+    "micro_f1": 0.6428,
+    "auc_pr": 0.7304,
+    "threshold": 0.45,
+    "_provenance": {
+      "corpus": "synthetic",
+      "n_tracks": 600,
+      "num_tags": 33,
+      "graph_kind": "segment",
+      "segment_seconds": 5.0,
+      "split_sizes": {
+        "train": 420,
+        "val": 90,
+        "test": 90
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42,
+      "note": "Procedurally-composed corpus (src/data/synthetic.py), 60 s clips, label_dropout 0.5. Architecture sanity-check only -- NOT evidence about any Table 1 corpus. Recovered from the deleted metrics.json via results/full_run.log."
+    },
+    "_source": "recovered from results/full_run.log"
+  }
+}

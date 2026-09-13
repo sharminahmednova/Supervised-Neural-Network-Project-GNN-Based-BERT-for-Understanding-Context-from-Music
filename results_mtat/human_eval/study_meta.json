@@ -1,0 +1,7 @@
+{
+  "study_id": "task4-results_mtat",
+  "n_queries": 10,
+  "n_pairs": 50,
+  "clip_seconds": 12.0,
+  "note": "answer_key.json is deliberately not embedded in the HTML"
+}

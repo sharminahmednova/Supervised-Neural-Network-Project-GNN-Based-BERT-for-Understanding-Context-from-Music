@@ -1,0 +1,402 @@
+[
+  {
+    "track_id": "mtat_10015",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 40,
+    "avg_degree": 3.333,
+    "density": 0.303,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 6,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      7,
+      24
+    ],
+    "text": "A music track described as strings."
+  },
+  {
+    "track_id": "mtat_10024",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 42,
+    "avg_degree": 3.5,
+    "density": 0.3182,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 8,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      3,
+      24
+    ],
+    "text": "A music track described as strings."
+  },
+  {
+    "track_id": "mtat_10028",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 50,
+    "avg_degree": 4.167,
+    "density": 0.3788,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 16,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      3,
+      7,
+      10,
+      24
+    ],
+    "text": "A music track described as strings."
+  },
+  {
+    "track_id": "mtat_10029",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 46,
+    "avg_degree": 3.833,
+    "density": 0.3485,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 12,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      24
+    ],
+    "text": "a music track with no listed descriptors"
+  },
+  {
+    "track_id": "mtat_10036",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 52,
+    "avg_degree": 4.333,
+    "density": 0.3939,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 18,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      7,
+      12,
+      21
+    ],
+    "text": "A music track described as strings."
+  },
+  {
+    "track_id": "mtat_10045",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 46,
+    "avg_degree": 3.833,
+    "density": 0.3485,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 12,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [],
+    "text": "A music track described as opera, solo, woman."
+  },
+  {
+    "track_id": "mtat_10048",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 38,
+    "avg_degree": 3.167,
+    "density": 0.2879,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 4,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0,
+      7,
+      9,
+      22,
+      24
+    ],
+    "text": "A music track described as no vocal, no vocals, no voice, strings, synth."
+  },
+  {
+    "track_id": "mtat_10050",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 46,
+    "avg_degree": 3.833,
+    "density": 0.3485,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 12,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0,
+      22
+    ],
+    "text": "A music track described as weird."
+  },
+  {
+    "track_id": "mtat_10061",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 46,
+    "avg_degree": 3.833,
+    "density": 0.3485,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 12,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0,
+      12,
+      15,
+      21,
+      22
+    ],
+    "text": "A music track described as quiet."
+  },
+  {
+    "track_id": "mtat_10076",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 50,
+    "avg_degree": 4.167,
+    "density": 0.3788,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 16,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      7,
+      11
+    ],
+    "text": "A music track described as strings."
+  },
+  {
+    "track_id": "mtat_10087",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 44,
+    "avg_degree": 3.667,
+    "density": 0.3333,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 10,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      7,
+      11,
+      14,
+      18,
+      24
+    ],
+    "text": "A music track described as strings."
+  },
+  {
+    "track_id": "mtat_10115",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 66,
+    "avg_degree": 5.5,
+    "density": 0.5,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 32,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [],
+    "text": "A music track described as synth."
+  },
+  {
+    "track_id": "mtat_10117",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 60,
+    "avg_degree": 5.0,
+    "density": 0.4545,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 26,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      1,
+      8,
+      23
+    ],
+    "text": "a music track with no listed descriptors"
+  },
+  {
+    "track_id": "mtat_10121",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 60,
+    "avg_degree": 5.0,
+    "density": 0.4545,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 26,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      20
+    ],
+    "text": "a music track with no listed descriptors"
+  },
+  {
+    "track_id": "mtat_10124",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 88,
+    "avg_degree": 7.333,
+    "density": 0.6667,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 54,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      19
+    ],
+    "text": "A music track described as male voice, vocal, vocals."
+  },
+  {
+    "track_id": "mtat_10138",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 48,
+    "avg_degree": 4.0,
+    "density": 0.3636,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 14,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [],
+    "text": "A music track described as vocals, woman."
+  },
+  {
+    "track_id": "mtat_10150",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 42,
+    "avg_degree": 3.5,
+    "density": 0.3182,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 8,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      9,
+      12
+    ],
+    "text": "A music track described as vocals."
+  },
+  {
+    "track_id": "mtat_10177",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 86,
+    "avg_degree": 7.167,
+    "density": 0.6515,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 52,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      9,
+      23
+    ],
+    "text": "A music track described as female, synth."
+  },
+  {
+    "track_id": "mtat_10217",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 56,
+    "avg_degree": 4.667,
+    "density": 0.4242,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 22,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      7,
+      14
+    ],
+    "text": "a music track with no listed descriptors"
+  },
+  {
+    "track_id": "mtat_10252",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 46,
+    "avg_degree": 3.833,
+    "density": 0.3485,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 12,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      20
+    ],
+    "text": "a music track with no listed descriptors"
+  }
+]

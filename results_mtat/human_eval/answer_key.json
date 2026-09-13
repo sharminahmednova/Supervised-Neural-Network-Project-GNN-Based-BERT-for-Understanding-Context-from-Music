@@ -1,0 +1,402 @@
+[
+  {
+    "query_id": 0,
+    "candidate_id": 0,
+    "track_id": "mtat_25517",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 0,
+    "candidate_id": 1,
+    "track_id": "mtat_50069",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 0,
+    "candidate_id": 2,
+    "track_id": "mtat_40407",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 0,
+    "candidate_id": 3,
+    "track_id": "mtat_17614",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 0,
+    "candidate_id": 4,
+    "track_id": "mtat_25207",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 1,
+    "candidate_id": 0,
+    "track_id": "mtat_50069",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 1,
+    "candidate_id": 1,
+    "track_id": "mtat_25517",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 1,
+    "candidate_id": 2,
+    "track_id": "mtat_48982",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 1,
+    "candidate_id": 3,
+    "track_id": "mtat_22425",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 1,
+    "candidate_id": 4,
+    "track_id": "mtat_17614",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 2,
+    "candidate_id": 0,
+    "track_id": "mtat_15532",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 2,
+    "candidate_id": 1,
+    "track_id": "mtat_37651",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 2,
+    "candidate_id": 2,
+    "track_id": "mtat_42170",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 2,
+    "candidate_id": 3,
+    "track_id": "mtat_25207",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 2,
+    "candidate_id": 4,
+    "track_id": "mtat_32379",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 3,
+    "candidate_id": 0,
+    "track_id": "mtat_47915",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 3,
+    "candidate_id": 1,
+    "track_id": "mtat_4336",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 3,
+    "candidate_id": 2,
+    "track_id": "mtat_36867",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 3,
+    "candidate_id": 3,
+    "track_id": "mtat_26098",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 3,
+    "candidate_id": 4,
+    "track_id": "mtat_32378",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 4,
+    "candidate_id": 0,
+    "track_id": "mtat_10517",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 4,
+    "candidate_id": 1,
+    "track_id": "mtat_2414",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 4,
+    "candidate_id": 2,
+    "track_id": "mtat_54989",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 4,
+    "candidate_id": 3,
+    "track_id": "mtat_32378",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 4,
+    "candidate_id": 4,
+    "track_id": "mtat_26098",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 5,
+    "candidate_id": 0,
+    "track_id": "mtat_13454",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 5,
+    "candidate_id": 1,
+    "track_id": "mtat_13453",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 5,
+    "candidate_id": 2,
+    "track_id": "mtat_2414",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 5,
+    "candidate_id": 3,
+    "track_id": "mtat_32379",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 5,
+    "candidate_id": 4,
+    "track_id": "mtat_25207",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 6,
+    "candidate_id": 0,
+    "track_id": "mtat_18050",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 6,
+    "candidate_id": 1,
+    "track_id": "mtat_13454",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 6,
+    "candidate_id": 2,
+    "track_id": "mtat_10517",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 6,
+    "candidate_id": 3,
+    "track_id": "mtat_32384",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 6,
+    "candidate_id": 4,
+    "track_id": "mtat_22425",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 7,
+    "candidate_id": 0,
+    "track_id": "mtat_1794",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 7,
+    "candidate_id": 1,
+    "track_id": "mtat_13449",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 7,
+    "candidate_id": 2,
+    "track_id": "mtat_47303",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 7,
+    "candidate_id": 3,
+    "track_id": "mtat_34845",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 7,
+    "candidate_id": 4,
+    "track_id": "mtat_42035",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 8,
+    "candidate_id": 0,
+    "track_id": "mtat_6579",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 8,
+    "candidate_id": 1,
+    "track_id": "mtat_38885",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 8,
+    "candidate_id": 2,
+    "track_id": "mtat_53731",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 8,
+    "candidate_id": 3,
+    "track_id": "mtat_40407",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 8,
+    "candidate_id": 4,
+    "track_id": "mtat_22425",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  },
+  {
+    "query_id": 9,
+    "candidate_id": 0,
+    "track_id": "mtat_25517",
+    "model_rank": 1,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 9,
+    "candidate_id": 1,
+    "track_id": "mtat_50069",
+    "model_rank": 2,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 9,
+    "candidate_id": 2,
+    "track_id": "mtat_40407",
+    "model_rank": 3,
+    "is_ground_truth": false,
+    "is_distractor": false
+  },
+  {
+    "query_id": 9,
+    "candidate_id": 3,
+    "track_id": "mtat_42035",
+    "model_rank": 0,
+    "is_ground_truth": true,
+    "is_distractor": false
+  },
+  {
+    "query_id": 9,
+    "candidate_id": 4,
+    "track_id": "mtat_32384",
+    "model_rank": -1,
+    "is_ground_truth": false,
+    "is_distractor": true
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "track_id": "mtat_7438",
+    "caption": "A music track described as male.",
+    "true_tags": [
+      "loud",
+      "rock"
+    ],
+    "predicted_top5": [
+      {
+        "tag": "pop",
+        "score": 0.895
+      },
+      {
+        "tag": "rock",
+        "score": 0.8148
+      },
+      {
+        "tag": "loud",
+        "score": 0.7665
+      },
+      {
+        "tag": "guitar",
+        "score": 0.4663
+      },
+      {
+        "tag": "fast",
+        "score": 0.3633
+      }
+    ],
+    "graph_path": [
+      "s0->s1",
+      "s1->s0",
+      "s1->s2",
+      "s2->s1",
+      "s2->s3",
+      "s3->s2",
+      "s3->s4",
+      "s4->s3"
+    ],
+    "edge_types_present": [
+      "self",
+      "similarity",
+      "temporal"
+    ],
+    "top_attended_caption_tokens": [
+      [
+        "male",
+        0.24342146515846252
+      ],
+      [
+        "music",
+        0.13262763619422913
+      ],
+      [
+        "a",
+        0.1324419528245926
+      ],
+      [
+        "track",
+        0.11320105195045471
+      ],
+      [
+        "[CLS]",
+        0.10647754371166229
+      ],
+      [
+        "[SEP]",
+        0.08722130209207535
+      ]
+    ]
+  },
+  {
+    "track_id": "mtat_7439",
+    "caption": "A music track described as male, vocal, vocals.",
+    "true_tags": [
+      "rock"
+    ],
+    "predicted_top5": [
+      {
+        "tag": "rock",
+        "score": 0.9078
+      },
+      {
+        "tag": "loud",
+        "score": 0.9003
+      },
+      {
+        "tag": "pop",
+        "score": 0.899
+      },
+      {
+        "tag": "choral",
+        "score": 0.7553
+      },
+      {
+        "tag": "choir",
+        "score": 0.6517
+      }
+    ],
+    "graph_path": [
+      "s0->s1",
+      "s1->s0",
+      "s1->s2",
+      "s2->s1",
+      "s2->s3",
+      "s3->s2",
+      "s3->s4",
+      "s4->s3"
+    ],
+    "edge_types_present": [
+      "self",
+      "similarity",
+      "temporal"
+    ],
+    "top_attended_caption_tokens": [
+      [
+        "vocal",
+        0.19893021881580353
+      ],
+      [
+        "male",
+        0.14389312267303467
+      ],
+      [
+        "vocals",
+        0.10783731937408447
+      ],
+      [
+        ",",
+        0.08903400599956512
+      ],
+      [
+        "music",
+        0.08083903789520264
+      ],
+      [
+        ",",
+        0.07582387328147888
+      ]
+    ]
+  },
+  {
+    "track_id": "mtat_7440",
+    "caption": "a music track with no listed descriptors",
+    "true_tags": [
+      "loud",
+      "rock"
+    ],
+    "predicted_top5": [
+      {
+        "tag": "rock",
+        "score": 0.9337
+      },
+      {
+        "tag": "loud",
+        "score": 0.8671
+      },
+      {
+        "tag": "metal",
+        "score": 0.8122
+      },
+      {
+        "tag": "fast",
+        "score": 0.7418
+      },
+      {
+        "tag": "techno",
+        "score": 0.7268
+      }
+    ],
+    "graph_path": [
+      "s0->s1",
+      "s1->s0",
+      "s1->s2",
+      "s2->s1",
+      "s2->s3",
+      "s3->s2",
+      "s3->s4",
+      "s4->s3"
+    ],
+    "edge_types_present": [
+      "self",
+      "similarity",
+      "temporal"
+    ],
+    "top_attended_caption_tokens": [
+      [
+        "a",
+        0.3638772964477539
+      ],
+      [
+        "music",
+        0.20595648884773254
+      ],
+      [
+        "[CLS]",
+        0.12521512806415558
+      ],
+      [
+        "des",
+        0.11223385483026505
+      ],
+      [
+        "##cript",
+        0.08397479355335236
+      ],
+      [
+        "##ors",
+        0.05800015479326248
+      ]
+    ]
+  }
+]

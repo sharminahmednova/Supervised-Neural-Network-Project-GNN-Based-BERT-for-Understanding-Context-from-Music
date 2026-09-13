@@ -1,0 +1,353 @@
+{
+  "_provenance": {
+    "corpus": "magnatagatune",
+    "n_tracks": 4000,
+    "num_tags": 25,
+    "graph_kind": "segment",
+    "segment_seconds": 2.5,
+    "split_sizes": {
+      "train": 2835,
+      "val": 569,
+      "test": 596
+    },
+    "split_strategy": "grouped_by_artist",
+    "text_model": "distilbert-base-uncased",
+    "seed": 42
+  },
+  "baseline_b1_random": {
+    "macro_f1": 0.14056771458880343,
+    "macro_f1_all_tags": 0.14056771458880343,
+    "micro_f1": 0.14933159439191393,
+    "micro_precision": 0.08102752812964405,
+    "micro_recall": 0.9509966777408638,
+    "macro_precision": 0.08074017079535188,
+    "macro_recall": 0.9355369964074087,
+    "auc_pr": 0.08766066543013444,
+    "roc_auc": 0.4908532580002261,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "threshold": 0.05,
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "baseline_b1_prior": {
+    "macro_f1": 0.11964534178559552,
+    "macro_f1_all_tags": 0.11964534178559552,
+    "micro_f1": 0.20498559936438573,
+    "micro_precision": 0.11641285956006768,
+    "micro_recall": 0.8571428571428571,
+    "macro_precision": 0.06943564904868027,
+    "macro_recall": 0.5942857142857143,
+    "auc_pr": 0.08979436756864362,
+    "roc_auc": 0.5027092739352518,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "threshold": 0.05,
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "baseline_b2_melcnn": {
+    "tag": "baseline_b2_melcnn",
+    "split": "test",
+    "threshold": 0.5,
+    "val_macro_f1_at_threshold": 0.2873089196913003,
+    "best_val_score": 0.2873089196913003,
+    "best_epoch": 10,
+    "macro_f1": 0.2805348500840304,
+    "macro_f1_all_tags": 0.2805348500840304,
+    "micro_f1": 0.35239387478193446,
+    "micro_precision": 0.22983565107458911,
+    "micro_recall": 0.7549833887043189,
+    "macro_precision": 0.19604442688903498,
+    "macro_recall": 0.6489252093914338,
+    "auc_pr": 0.26441194121138223,
+    "roc_auc": 0.8106118113623217,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "baseline_b4_pca_mlp": {
+    "macro_f1": 0.27327021971725146,
+    "macro_f1_all_tags": 0.27327021971725146,
+    "micro_f1": 0.37510466089868827,
+    "micro_precision": 0.28247162673392184,
+    "micro_recall": 0.5581395348837209,
+    "macro_precision": 0.20994723017628902,
+    "macro_recall": 0.4260169027910657,
+    "auc_pr": 0.2350904450070103,
+    "roc_auc": 0.775614336738583,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "threshold": 0.05,
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "task1_bert": {
+    "tag": "task1_bert",
+    "split": "test",
+    "threshold": 0.6500000000000001,
+    "val_macro_f1_at_threshold": 0.30266113802525646,
+    "best_val_score": 0.30266113802525646,
+    "best_epoch": 6,
+    "macro_f1": 0.25475860753471524,
+    "macro_f1_all_tags": 0.25475860753471524,
+    "micro_f1": 0.3210493441599,
+    "micro_precision": 0.25725725725725723,
+    "micro_recall": 0.4269102990033223,
+    "macro_precision": 0.22354057735608088,
+    "macro_recall": 0.44331629558270114,
+    "auc_pr": 0.25133724952118863,
+    "roc_auc": 0.7597348940926817,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "task3_fusion_cross_attention": {
+    "tag": "task3_fusion_cross_attention",
+    "split": "test",
+    "threshold": 0.7000000000000001,
+    "val_macro_f1_at_threshold": 0.38322433012270507,
+    "best_val_score": 0.38322433012270507,
+    "best_epoch": 13,
+    "macro_f1": 0.3409357329924339,
+    "macro_f1_all_tags": 0.3409357329924339,
+    "micro_f1": 0.42486085343228197,
+    "micro_precision": 0.33842364532019703,
+    "micro_recall": 0.5705980066445183,
+    "macro_precision": 0.28471101211842276,
+    "macro_recall": 0.5062160741718668,
+    "auc_pr": 0.34587377407479086,
+    "roc_auc": 0.8475233837188116,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "fusion_mode": "cross_attention",
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "task3_fusion_concat": {
+    "tag": "task3_fusion_concat",
+    "split": "test",
+    "threshold": 0.7000000000000001,
+    "val_macro_f1_at_threshold": 0.38801683012421956,
+    "best_val_score": 0.38801683012421956,
+    "best_epoch": 20,
+    "macro_f1": 0.37123229823799664,
+    "macro_f1_all_tags": 0.37123229823799664,
+    "micro_f1": 0.4440993788819876,
+    "micro_precision": 0.35466269841269843,
+    "micro_recall": 0.5938538205980066,
+    "macro_precision": 0.31614825207812586,
+    "macro_recall": 0.5202107657912474,
+    "auc_pr": 0.36605573232414124,
+    "roc_auc": 0.8580390507815445,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "fusion_mode": "concat",
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "task3_fusion_bert_only": {
+    "tag": "task3_fusion_bert_only",
+    "split": "test",
+    "threshold": 0.6500000000000001,
+    "val_macro_f1_at_threshold": 0.2967468428428576,
+    "best_val_score": 0.2967468428428576,
+    "best_epoch": 11,
+    "macro_f1": 0.26292515253888227,
+    "macro_f1_all_tags": 0.26292515253888227,
+    "micro_f1": 0.32317880794701986,
+    "micro_precision": 0.2687224669603524,
+    "micro_recall": 0.4053156146179402,
+    "macro_precision": 0.2425275471269937,
+    "macro_recall": 0.422293741792821,
+    "auc_pr": 0.2331817090281377,
+    "roc_auc": 0.7472937192761573,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "fusion_mode": "bert_only",
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "task3_fusion_gnn_only": {
+    "tag": "task3_fusion_gnn_only",
+    "split": "test",
+    "threshold": 0.6000000000000001,
+    "val_macro_f1_at_threshold": 0.3569705500725711,
+    "best_val_score": 0.3569705500725711,
+    "best_epoch": 20,
+    "macro_f1": 0.29120157924297824,
+    "macro_f1_all_tags": 0.29120157924297824,
+    "micro_f1": 0.3612783696155628,
+    "micro_precision": 0.2504816955684008,
+    "micro_recall": 0.6478405315614618,
+    "macro_precision": 0.21460371071842943,
+    "macro_recall": 0.5956401048017089,
+    "auc_pr": 0.29531077182137183,
+    "roc_auc": 0.8255384885537951,
+    "n_tags_scored": 25,
+    "n_samples": 596,
+    "fusion_mode": "gnn_only",
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  },
+  "task3_ablation": {
+    "cross_attention": {
+      "macro_f1": 0.3409357329924339,
+      "micro_f1": 0.42486085343228197,
+      "auc_pr": 0.34587377407479086,
+      "mae_mean": null
+    },
+    "concat": {
+      "macro_f1": 0.37123229823799664,
+      "micro_f1": 0.4440993788819876,
+      "auc_pr": 0.36605573232414124,
+      "mae_mean": null
+    },
+    "bert_only": {
+      "macro_f1": 0.26292515253888227,
+      "micro_f1": 0.32317880794701986,
+      "auc_pr": 0.2331817090281377,
+      "mae_mean": null
+    },
+    "gnn_only": {
+      "macro_f1": 0.29120157924297824,
+      "micro_f1": 0.3612783696155628,
+      "auc_pr": 0.29531077182137183,
+      "mae_mean": null
+    },
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 4000,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 2835,
+        "val": 569,
+        "test": 596
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  }
+}

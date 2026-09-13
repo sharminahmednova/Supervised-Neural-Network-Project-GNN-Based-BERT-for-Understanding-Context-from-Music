@@ -1,0 +1,382 @@
+[
+  {
+    "track_id": "blues.00000",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 74,
+    "avg_degree": 6.167,
+    "density": 0.5606,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 40,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00001",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 40,
+    "avg_degree": 3.333,
+    "density": 0.303,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 6,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00002",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 66,
+    "avg_degree": 5.5,
+    "density": 0.5,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 32,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00003",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 64,
+    "avg_degree": 5.333,
+    "density": 0.4848,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 30,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00004",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 76,
+    "avg_degree": 6.333,
+    "density": 0.5758,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 42,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00005",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 50,
+    "avg_degree": 4.167,
+    "density": 0.3788,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 16,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00006",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 48,
+    "avg_degree": 4.0,
+    "density": 0.3636,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 14,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00007",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 52,
+    "avg_degree": 4.333,
+    "density": 0.3939,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 18,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00008",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 132,
+    "avg_degree": 11.0,
+    "density": 1.0,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 98,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00009",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 46,
+    "avg_degree": 3.833,
+    "density": 0.3485,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 12,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00010",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 46,
+    "avg_degree": 3.833,
+    "density": 0.3485,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 12,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00011",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 78,
+    "avg_degree": 6.5,
+    "density": 0.5909,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 44,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00012",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 50,
+    "avg_degree": 4.167,
+    "density": 0.3788,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 16,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00013",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 48,
+    "avg_degree": 4.0,
+    "density": 0.3636,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 14,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00014",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 48,
+    "avg_degree": 4.0,
+    "density": 0.3636,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 14,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00015",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 46,
+    "avg_degree": 3.833,
+    "density": 0.3485,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 12,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00016",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 52,
+    "avg_degree": 4.333,
+    "density": 0.3939,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 18,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00017",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 70,
+    "avg_degree": 5.833,
+    "density": 0.5303,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 36,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00018",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 44,
+    "avg_degree": 3.667,
+    "density": 0.3333,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 10,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  },
+  {
+    "track_id": "blues.00019",
+    "node_kind": "segment",
+    "num_nodes": 12,
+    "num_edges": 58,
+    "avg_degree": 4.833,
+    "density": 0.4394,
+    "edges_by_type": {
+      "temporal": 22,
+      "similarity": 24,
+      "transition": 0,
+      "self": 12
+    },
+    "feature_dim": 308,
+    "tags": [
+      0
+    ],
+    "text": "blues"
+  }
+]

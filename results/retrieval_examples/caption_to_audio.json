@@ -1,0 +1,282 @@
+[
+  {
+    "query_caption": "This is a unmistakable music recording in D#. Synth, drums carry the arrangement at around 138 BPM.",
+    "ground_truth": "syn_00075",
+    "rank_of_truth": 17,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00062",
+        "score": 0.8186,
+        "is_correct": false,
+        "caption": "Fast metal track. The harmony moves through G#:min to E:min to A:maj to B:min, and the overall mood is energetic."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00362",
+        "score": 0.8174,
+        "is_correct": false,
+        "caption": "A unmistakable, bright metal instrumental featuring guitar, drums, bass, roughly 155 beats per minute."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00014",
+        "score": 0.8167,
+        "is_correct": false,
+        "caption": "Fast instrumental track. The harmony moves through G#:min to E:min to A:maj to B:min, and the overall mood is melancholic."
+      }
+    ]
+  },
+  {
+    "query_caption": "A fast instrumental piece with a happy feel, driven by synth, drums.",
+    "ground_truth": "syn_00175",
+    "rank_of_truth": 20,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00014",
+        "score": 0.8208,
+        "is_correct": false,
+        "caption": "Fast instrumental track. The harmony moves through G#:min to E:min to A:maj to B:min, and the overall mood is melancholic."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00514",
+        "score": 0.8204,
+        "is_correct": false,
+        "caption": "This is a melancholic metal recording in D. Guitar, drums, bass carry the arrangement at around 177 BPM."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00262",
+        "score": 0.8204,
+        "is_correct": false,
+        "caption": "This is a dreamy metal recording in A#. Guitar, drums, bass carry the arrangement at around 168 BPM."
+      }
+    ]
+  },
+  {
+    "query_caption": "Fast music track. The harmony moves through G:min to D#:maj to A#:maj to F:maj, and the overall mood is energetic.",
+    "ground_truth": "syn_00275",
+    "rank_of_truth": 20,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00375",
+        "score": 0.8081,
+        "is_correct": false,
+        "caption": "This is a unmistakable band recording in C#. Synth, drums carry the arrangement at around 139 BPM."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00519",
+        "score": 0.8076,
+        "is_correct": false,
+        "caption": "A fast band piece with a distinctive feel, driven by synth, drums."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00414",
+        "score": 0.8048,
+        "is_correct": false,
+        "caption": "A particular, bright metal instrumental featuring guitar, drums, bass, roughly 164 beats per minute."
+      }
+    ]
+  },
+  {
+    "query_caption": "This is a unmistakable band recording in C#. Synth, drums carry the arrangement at around 139 BPM.",
+    "ground_truth": "syn_00375",
+    "rank_of_truth": 21,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00362",
+        "score": 0.8207,
+        "is_correct": false,
+        "caption": "A unmistakable, bright metal instrumental featuring guitar, drums, bass, roughly 155 beats per minute."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00062",
+        "score": 0.8206,
+        "is_correct": false,
+        "caption": "Fast metal track. The harmony moves through G#:min to E:min to A:maj to B:min, and the overall mood is energetic."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00306",
+        "score": 0.8199,
+        "is_correct": false,
+        "caption": "A fast studio piece with a energetic feel, driven by guitar, drums, bass."
+      }
+    ]
+  },
+  {
+    "query_caption": "A happy, bright electronic instrumental featuring synth, drums, roughly 136 beats per minute.",
+    "ground_truth": "syn_00475",
+    "rank_of_truth": 9,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00406",
+        "score": 0.8073,
+        "is_correct": false,
+        "caption": "A happy, bright metal instrumental featuring guitar, drums, bass, roughly 142 beats per minute."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00506",
+        "score": 0.8066,
+        "is_correct": false,
+        "caption": "A fast metal piece with a certain feel, driven by guitar, drums, bass."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00562",
+        "score": 0.8059,
+        "is_correct": false,
+        "caption": "A unmistakable, bright music instrumental featuring guitar, drums, bass, roughly 152 beats per minute."
+      }
+    ]
+  },
+  {
+    "query_caption": "A distinctive, bright electronic instrumental featuring synth, drums, roughly 120 beats per minute.",
+    "ground_truth": "syn_00575",
+    "rank_of_truth": 36,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00406",
+        "score": 0.8049,
+        "is_correct": false,
+        "caption": "A happy, bright metal instrumental featuring guitar, drums, bass, roughly 142 beats per minute."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00506",
+        "score": 0.8038,
+        "is_correct": false,
+        "caption": "A fast metal piece with a certain feel, driven by guitar, drums, bass."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00562",
+        "score": 0.8028,
+        "is_correct": false,
+        "caption": "A unmistakable, bright music instrumental featuring guitar, drums, bass, roughly 152 beats per minute."
+      }
+    ]
+  },
+  {
+    "query_caption": "A aggressive, bright folk instrumental featuring guitar, vocals, roughly 95 beats per minute.",
+    "ground_truth": "syn_00069",
+    "rank_of_truth": 3,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00585",
+        "score": 0.8333,
+        "is_correct": false,
+        "caption": "This is a certain folk recording in C. Guitar, vocals carry the arrangement at around 95 BPM."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00416",
+        "score": 0.8323,
+        "is_correct": false,
+        "caption": "A distinctive, bright jazz instrumental featuring saxophone, piano, drums, roughly 121 beats per minute."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00069",
+        "score": 0.8288,
+        "is_correct": true,
+        "caption": "A aggressive, bright folk instrumental featuring guitar, vocals, roughly 95 beats per minute."
+      }
+    ]
+  },
+  {
+    "query_caption": "A unmistakable, bright band instrumental featuring guitar, vocals, roughly 103 beats per minute.",
+    "ground_truth": "syn_00169",
+    "rank_of_truth": 17,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00016",
+        "score": 0.8193,
+        "is_correct": false,
+        "caption": "This is a aggressive music recording in F#. Saxophone, piano, drums carry the arrangement at around 106 BPM."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00008",
+        "score": 0.8184,
+        "is_correct": false,
+        "caption": "Fast instrumental track. The harmony moves through G#:min to C#:maj to D#:maj to A#:min, and the overall mood is happy."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00569",
+        "score": 0.8142,
+        "is_correct": false,
+        "caption": "A certain, bright folk instrumental featuring guitar, vocals, roughly 112 beats per minute."
+      }
+    ]
+  },
+  {
+    "query_caption": "A mid-tempo folk piece with a distinctive feel, driven by guitar, vocals.",
+    "ground_truth": "syn_00269",
+    "rank_of_truth": 2,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00208",
+        "score": 0.8472,
+        "is_correct": false,
+        "caption": "This is a unmistakable jazz recording in G#. Saxophone, piano, drums carry the arrangement at around 100 BPM."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00269",
+        "score": 0.8385,
+        "is_correct": true,
+        "caption": "A mid-tempo folk piece with a distinctive feel, driven by guitar, vocals."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00416",
+        "score": 0.8334,
+        "is_correct": false,
+        "caption": "A distinctive, bright jazz instrumental featuring saxophone, piano, drums, roughly 121 beats per minute."
+      }
+    ]
+  },
+  {
+    "query_caption": "Mid-tempo folk track. The harmony moves through D:maj to G:maj to B:min to A:maj, and the overall mood is aggressive.",
+    "ground_truth": "syn_00369",
+    "rank_of_truth": 32,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "syn_00269",
+        "score": 0.8632,
+        "is_correct": false,
+        "caption": "A mid-tempo folk piece with a distinctive feel, driven by guitar, vocals."
+      },
+      {
+        "rank": 2,
+        "track_id": "syn_00385",
+        "score": 0.8582,
+        "is_correct": false,
+        "caption": "This is a melancholic folk recording in E. Guitar, vocals carry the arrangement at around 106 BPM."
+      },
+      {
+        "rank": 3,
+        "track_id": "syn_00208",
+        "score": 0.8506,
+        "is_correct": false,
+        "caption": "This is a unmistakable jazz recording in G#. Saxophone, piano, drums carry the arrangement at around 100 BPM."
+      }
+    ]
+  }
+]

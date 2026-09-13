@@ -1,0 +1,58 @@
+# MagnaTagATune -- the spec's corpus for Task 1 (top-50 tags) and Task 3.
+#
+# MTAT satisfies section 3 on its own: it is both a primary audio dataset and a
+# 188-tag text/tag source. Use it for Tasks 1, 3 and 4.
+#
+#   python src/preprocess.py --config configs/mtat.yaml
+#   python src/train.py all --config configs/mtat.yaml --set paths.results=results_mtat
+extends: ../config.yaml
+
+paths:
+  processed: data/processed_mtat
+  splits: data/splits_mtat
+  results: results_mtat
+  plots: results_mtat/plots
+  retrieval: results_mtat/retrieval_examples
+
+dataset:
+  source: magnatagatune
+  top_tags: 50            # the spec's "top-50 tags" subset
+  min_tag_count: 40       # a tag needs enough positives to be scoreable
+  # 25,877 clips is far more than a CPU can preprocess and train in a day.
+  # 8,000 is a good GPU target; drop to ~3,000 for CPU-only.
+  subsample: 8000
+  clip_seconds: 29.0      # MTAT clips are 29 s
+  text_field: tags
+  # MTAT has no captions -- its only text IS its tag set. Hand this fraction of
+  # the vocabulary to the text branch as the "caption" and predict the rest.
+  # The two sets are disjoint, so the text cannot leak the labels it is scored
+  # against. At 0.0 the text restates the target and Task 1 scores a
+  # meaningless 1.0 (measured on GTZAN, where exactly that happened).
+  text_tag_fraction: 0.4
+  # MTAT is sparse -- many clips carry 1-2 tags -- so after partitioning ~35%
+  # of records have no text-side tag and fall back to one shared placeholder
+  # string. Identical text means identical embeddings, which tie exactly in
+  # retrieval (~61 ties per query, measured). Harmless for tagging, corrupting
+  # for Task 4: set this true for retrieval runs.
+  drop_textless: false
+  emotion: false          # no valence/arousal annotations in MTAT
+
+audio:
+  # 29 s at 5 s windows is a SIX node graph at ~0.54 density -- message passing
+  # over that is barely distinguishable from mean pooling, which destroys the
+  # premise of Tasks 2 and 3. 2.5 s gives 12 nodes at ~0.27 density (measured).
+  # `beat_sync: true` is the spec-sanctioned alternative (30-70 nodes) and is
+  # richer still, at roughly 3x the preprocessing cost.
+  segment_seconds: 2.5
+
+split:
+  group_by: artist        # mp3_path encodes the artist; prevents artist leakage
+  # MagnaTagATune's own partition (by audio directory 0-f) shares artists across
+  # train/val/test -- measured at 43 artists between train and test on a 2,500
+  # clip subsample. Clips from one artist are often successive excerpts of the
+  # same recording, so that lets the model memorise a track and be scored on its
+  # neighbours. The spec asks for the official split AND for no artist leakage;
+  # where they conflict we take leakage-free as primary and report the official
+  # partition as a secondary, literature-comparable run:
+  #   --set split.use_official=true --set paths.results=results_mtat_official
+  use_official: false

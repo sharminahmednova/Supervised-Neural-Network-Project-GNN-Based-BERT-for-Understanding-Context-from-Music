@@ -1,0 +1,282 @@
+[
+  {
+    "query_caption": "A music track described as synth.",
+    "ground_truth": "mtat_17614",
+    "rank_of_truth": 98,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_25517",
+        "score": 0.6684,
+        "is_correct": false,
+        "caption": "A music track described as synth, vocals, woman."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_50069",
+        "score": 0.6659,
+        "is_correct": false,
+        "caption": "A music track described as drums, new age."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_40407",
+        "score": 0.6601,
+        "is_correct": false,
+        "caption": "A music track described as female voice, new age, strings, vocal."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as synth, weird.",
+    "ground_truth": "mtat_22425",
+    "rank_of_truth": 87,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_50069",
+        "score": 0.7077,
+        "is_correct": false,
+        "caption": "A music track described as drums, new age."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_25517",
+        "score": 0.6777,
+        "is_correct": false,
+        "caption": "A music track described as synth, vocals, woman."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_48982",
+        "score": 0.667,
+        "is_correct": false,
+        "caption": "A music track described as quiet, strings, synth."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as drums, voice.",
+    "ground_truth": "mtat_25207",
+    "rank_of_truth": 44,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_15532",
+        "score": 0.649,
+        "is_correct": false,
+        "caption": "A music track described as vocal."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_37651",
+        "score": 0.6446,
+        "is_correct": false,
+        "caption": "A music track described as drums."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_42170",
+        "score": 0.6435,
+        "is_correct": false,
+        "caption": "A music track described as drums, synth, weird."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as no vocals, vocals.",
+    "ground_truth": "mtat_26098",
+    "rank_of_truth": 100,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_47915",
+        "score": 0.6078,
+        "is_correct": false,
+        "caption": "A music track described as no vocals, quiet, weird."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_4336",
+        "score": 0.5904,
+        "is_correct": false,
+        "caption": "A music track described as drums, strings."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_36867",
+        "score": 0.5885,
+        "is_correct": false,
+        "caption": "A music track described as vocal."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as female, female vocal, female voice, singing, synth, vocal, woman.",
+    "ground_truth": "mtat_32378",
+    "rank_of_truth": 12,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_10517",
+        "score": 0.6513,
+        "is_correct": false,
+        "caption": "A music track described as man."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_2414",
+        "score": 0.6399,
+        "is_correct": false,
+        "caption": "A music track described as singing, vocal, woman."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_54989",
+        "score": 0.6364,
+        "is_correct": false,
+        "caption": "A music track described as vocal."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as woman.",
+    "ground_truth": "mtat_32379",
+    "rank_of_truth": 73,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_13454",
+        "score": 0.6385,
+        "is_correct": false,
+        "caption": "A music track described as drums, female, vocals."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_13453",
+        "score": 0.6359,
+        "is_correct": false,
+        "caption": "A music track described as drums, female, female voice, singing, vocal, vocals."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_2414",
+        "score": 0.6358,
+        "is_correct": false,
+        "caption": "A music track described as singing, vocal, woman."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as female.",
+    "ground_truth": "mtat_32384",
+    "rank_of_truth": 39,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_18050",
+        "score": 0.6159,
+        "is_correct": false,
+        "caption": "A music track described as drums, female, synth, vocal."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_13454",
+        "score": 0.6141,
+        "is_correct": false,
+        "caption": "A music track described as drums, female, vocals."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_10517",
+        "score": 0.6141,
+        "is_correct": false,
+        "caption": "A music track described as man."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as male vocal, singing.",
+    "ground_truth": "mtat_34845",
+    "rank_of_truth": 32,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_1794",
+        "score": 0.6659,
+        "is_correct": false,
+        "caption": "A music track described as drums, female, female voice, singing, woman."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_13449",
+        "score": 0.6635,
+        "is_correct": false,
+        "caption": "A music track described as female."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_47303",
+        "score": 0.6524,
+        "is_correct": false,
+        "caption": "A music track described as male, male vocal, man, vocal, vocals, weird."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as female voice, new age, strings, vocal.",
+    "ground_truth": "mtat_40407",
+    "rank_of_truth": 247,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_6579",
+        "score": 0.7655,
+        "is_correct": false,
+        "caption": "A music track described as vocal."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_38885",
+        "score": 0.7602,
+        "is_correct": false,
+        "caption": "A music track described as male, opera."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_53731",
+        "score": 0.7555,
+        "is_correct": false,
+        "caption": "A music track described as voice, woman."
+      }
+    ]
+  },
+  {
+    "query_caption": "A music track described as synth.",
+    "ground_truth": "mtat_42035",
+    "rank_of_truth": 152,
+    "results": [
+      {
+        "rank": 1,
+        "track_id": "mtat_25517",
+        "score": 0.6684,
+        "is_correct": false,
+        "caption": "A music track described as synth, vocals, woman."
+      },
+      {
+        "rank": 2,
+        "track_id": "mtat_50069",
+        "score": 0.6659,
+        "is_correct": false,
+        "caption": "A music track described as drums, new age."
+      },
+      {
+        "rank": 3,
+        "track_id": "mtat_40407",
+        "score": 0.6601,
+        "is_correct": false,
+        "caption": "A music track described as female voice, new age, strings, vocal."
+      }
+    ]
+  }
+]

@@ -1,0 +1,257 @@
+{
+  "study_id": "task4-results_mtat",
+  "rater": "anonymous",
+  "submitted_at": "2026-09-13T13:49:42.800Z",
+  "ratings": [
+    {
+      "query_id": 4,
+      "candidate_id": 0,
+      "score": 1
+    },
+    {
+      "query_id": 4,
+      "candidate_id": 1,
+      "score": 4
+    },
+    {
+      "query_id": 4,
+      "candidate_id": 4,
+      "score": 1
+    },
+    {
+      "query_id": 4,
+      "candidate_id": 2,
+      "score": 5
+    },
+    {
+      "query_id": 4,
+      "candidate_id": 3,
+      "score": 3
+    },
+    {
+      "query_id": 9,
+      "candidate_id": 3,
+      "score": 4
+    },
+    {
+      "query_id": 9,
+      "candidate_id": 4,
+      "score": 3
+    },
+    {
+      "query_id": 9,
+      "candidate_id": 1,
+      "score": 2
+    },
+    {
+      "query_id": 9,
+      "candidate_id": 2,
+      "score": 1
+    },
+    {
+      "query_id": 9,
+      "candidate_id": 0,
+      "score": 4
+    },
+    {
+      "query_id": 6,
+      "candidate_id": 3,
+      "score": 4
+    },
+    {
+      "query_id": 6,
+      "candidate_id": 2,
+      "score": 1
+    },
+    {
+      "query_id": 6,
+      "candidate_id": 4,
+      "score": 1
+    },
+    {
+      "query_id": 6,
+      "candidate_id": 1,
+      "score": 4
+    },
+    {
+      "query_id": 6,
+      "candidate_id": 0,
+      "score": 4
+    },
+    {
+      "query_id": 1,
+      "candidate_id": 2,
+      "score": 4
+    },
+    {
+      "query_id": 1,
+      "candidate_id": 0,
+      "score": 4
+    },
+    {
+      "query_id": 1,
+      "candidate_id": 4,
+      "score": 3
+    },
+    {
+      "query_id": 1,
+      "candidate_id": 3,
+      "score": 4
+    },
+    {
+      "query_id": 1,
+      "candidate_id": 1,
+      "score": 4
+    },
+    {
+      "query_id": 0,
+      "candidate_id": 2,
+      "score": 2
+    },
+    {
+      "query_id": 0,
+      "candidate_id": 3,
+      "score": 5
+    },
+    {
+      "query_id": 0,
+      "candidate_id": 4,
+      "score": 2
+    },
+    {
+      "query_id": 0,
+      "candidate_id": 0,
+      "score": 4
+    },
+    {
+      "query_id": 0,
+      "candidate_id": 1,
+      "score": 2
+    },
+    {
+      "query_id": 2,
+      "candidate_id": 3,
+      "score": 5
+    },
+    {
+      "query_id": 2,
+      "candidate_id": 0,
+      "score": 2
+    },
+    {
+      "query_id": 2,
+      "candidate_id": 1,
+      "score": 3
+    },
+    {
+      "query_id": 2,
+      "candidate_id": 4,
+      "score": 1
+    },
+    {
+      "query_id": 2,
+      "candidate_id": 2,
+      "score": 1
+    },
+    {
+      "query_id": 3,
+      "candidate_id": 2,
+      "score": 4
+    },
+    {
+      "query_id": 3,
+      "candidate_id": 1,
+      "score": 2
+    },
+    {
+      "query_id": 3,
+      "candidate_id": 0,
+      "score": 5
+    },
+    {
+      "query_id": 3,
+      "candidate_id": 3,
+      "score": 5
+    },
+    {
+      "query_id": 3,
+      "candidate_id": 4,
+      "score": 1
+    },
+    {
+      "query_id": 5,
+      "candidate_id": 2,
+      "score": 4
+    },
+    {
+      "query_id": 5,
+      "candidate_id": 3,
+      "score": 1
+    },
+    {
+      "query_id": 5,
+      "candidate_id": 4,
+      "score": 1
+    },
+    {
+      "query_id": 5,
+      "candidate_id": 0,
+      "score": 5
+    },
+    {
+      "query_id": 5,
+      "candidate_id": 1,
+      "score": 5
+    },
+    {
+      "query_id": 7,
+      "candidate_id": 1,
+      "score": 1
+    },
+    {
+      "query_id": 7,
+      "candidate_id": 0,
+      "score": 1
+    },
+    {
+      "query_id": 7,
+      "candidate_id": 3,
+      "score": 5
+    },
+    {
+      "query_id": 7,
+      "candidate_id": 2,
+      "score": 5
+    },
+    {
+      "query_id": 7,
+      "candidate_id": 4,
+      "score": 4
+    },
+    {
+      "query_id": 8,
+      "candidate_id": 0,
+      "score": 1
+    },
+    {
+      "query_id": 8,
+      "candidate_id": 1,
+      "score": 1
+    },
+    {
+      "query_id": 8,
+      "candidate_id": 3,
+      "score": 1
+    },
+    {
+      "query_id": 8,
+      "candidate_id": 4,
+      "score": 1
+    },
+    {
+      "query_id": 8,
+      "candidate_id": 2,
+      "score": 1
+    }
+  ]
+}

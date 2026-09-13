@@ -1,0 +1,14 @@
+corpus: magnatagatune  |  tracks: 4000  |  tags: 25  |  graph: segment  |  segment: 2.5s
+split: {'train': 2835, 'val': 569, 'test': 596} (grouped_by_artist)
+
+Model                       macro_f1    micro_f1      auc_pr    mae_mean    mean_R@5
+------------------------------------------------------------------------------------
+B1: Random tags               0.1406      0.1493      0.0877           -           -
+B1: Tag prior                 0.1196      0.2050      0.0898           -           -
+B4: PCA + MLP                 0.2733      0.3751      0.2351           -           -
+B2: CNN mel-spec              0.2805      0.3524      0.2644           -           -
+Task 1: BERT-only             0.2548      0.3210      0.2513           -           -
+Task 3 abl: BERT-only         0.2629      0.3232      0.2332           -           -
+Task 3 abl: GNN-only          0.2912      0.3613      0.2953           -           -
+Task 3 abl: early concat      0.3712      0.4441      0.3661           -           -
+Task 3: GNN-BERT x-attn       0.3409      0.4249      0.3459           -           -

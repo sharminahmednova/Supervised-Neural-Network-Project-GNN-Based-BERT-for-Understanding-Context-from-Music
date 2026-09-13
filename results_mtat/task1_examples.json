@@ -1,0 +1,200 @@
+[
+  {
+    "track_id": "mtat_7438",
+    "text": "A music track described as male.",
+    "true_tags": [
+      "loud",
+      "rock"
+    ],
+    "predicted_top5": [
+      {
+        "tag": "metal",
+        "score": 0.8592
+      },
+      {
+        "tag": "rock",
+        "score": 0.835
+      },
+      {
+        "tag": "loud",
+        "score": 0.7138
+      },
+      {
+        "tag": "pop",
+        "score": 0.6603
+      },
+      {
+        "tag": "guitar",
+        "score": 0.471
+      }
+    ],
+    "salient_tokens": [
+      "a",
+      "described",
+      "track",
+      "as",
+      "music",
+      "male",
+      "[SEP]",
+      "."
+    ]
+  },
+  {
+    "track_id": "mtat_7439",
+    "text": "A music track described as male, vocal, vocals.",
+    "true_tags": [
+      "rock"
+    ],
+    "predicted_top5": [
+      {
+        "tag": "choir",
+        "score": 0.9109
+      },
+      {
+        "tag": "rock",
+        "score": 0.8972
+      },
+      {
+        "tag": "pop",
+        "score": 0.8513
+      },
+      {
+        "tag": "metal",
+        "score": 0.7675
+      },
+      {
+        "tag": "loud",
+        "score": 0.754
+      }
+    ],
+    "salient_tokens": [
+      "as",
+      "a",
+      "track",
+      "music",
+      "described",
+      ",",
+      "vocal",
+      "vocals"
+    ]
+  },
+  {
+    "track_id": "mtat_7440",
+    "text": "a music track with no listed descriptors",
+    "true_tags": [
+      "loud",
+      "rock"
+    ],
+    "predicted_top5": [
+      {
+        "tag": "harpsichord",
+        "score": 0.6475
+      },
+      {
+        "tag": "sitar",
+        "score": 0.6011
+      },
+      {
+        "tag": "indian",
+        "score": 0.5534
+      },
+      {
+        "tag": "piano",
+        "score": 0.5375
+      },
+      {
+        "tag": "techno",
+        "score": 0.5365
+      }
+    ],
+    "salient_tokens": [
+      "listed",
+      "##ors",
+      "des",
+      "no",
+      "track",
+      "##cript",
+      "a",
+      "with"
+    ]
+  },
+  {
+    "track_id": "mtat_10150",
+    "text": "A music track described as vocals.",
+    "true_tags": [
+      "electronic",
+      "guitar"
+    ],
+    "predicted_top5": [
+      {
+        "tag": "choir",
+        "score": 0.9181
+      },
+      {
+        "tag": "choral",
+        "score": 0.881
+      },
+      {
+        "tag": "rock",
+        "score": 0.7226
+      },
+      {
+        "tag": "metal",
+        "score": 0.6274
+      },
+      {
+        "tag": "loud",
+        "score": 0.59
+      }
+    ],
+    "salient_tokens": [
+      "a",
+      "described",
+      "track",
+      "as",
+      "music",
+      "vocals",
+      "[SEP]",
+      "."
+    ]
+  },
+  {
+    "track_id": "mtat_11925",
+    "text": "A music track described as male, male voice, vocal.",
+    "true_tags": [
+      "piano"
+    ],
+    "predicted_top5": [
+      {
+        "tag": "rock",
+        "score": 0.859
+      },
+      {
+        "tag": "metal",
+        "score": 0.8224
+      },
+      {
+        "tag": "pop",
+        "score": 0.8148
+      },
+      {
+        "tag": "loud",
+        "score": 0.8099
+      },
+      {
+        "tag": "guitar",
+        "score": 0.6722
+      }
+    ],
+    "salient_tokens": [
+      "a",
+      "music",
+      "track",
+      "as",
+      "described",
+      "voice",
+      "male",
+      ","
+    ]
+  }
+]

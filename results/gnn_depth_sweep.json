@@ -1,0 +1,32 @@
+{
+  "what": "GNN depth sweep on Task 2 (GraphSAGE, segment graphs), test split.",
+  "why": "Checking whether the saturated graph-coherence score (S_graph ~= 0.999) indicated depth-driven oversmoothing. It did not: deeper is slightly better, and S_graph is ~0.999 at every depth. S_graph saturates because post-ReLU node features are non-negative, so cosine similarity is high for edges and non-edges alike. The informative quantity is the lift of edge similarity over non-edge similarity (see gnn_model.graph_coherence_score).",
+  "setup": "20 epochs, batch 16, identical config otherwise; one run per depth.",
+  "results": [
+    {
+      "num_layers": 1,
+      "macro_f1": 0.5692,
+      "micro_f1": 0.5858,
+      "auc_pr": 0.6226
+    },
+    {
+      "num_layers": 2,
+      "macro_f1": 0.6265,
+      "micro_f1": 0.6373,
+      "auc_pr": 0.6826
+    },
+    {
+      "num_layers": 3,
+      "macro_f1": 0.6396,
+      "micro_f1": 0.6347,
+      "auc_pr": 0.7116
+    },
+    {
+      "num_layers": 4,
+      "macro_f1": 0.6442,
+      "micro_f1": 0.6548,
+      "auc_pr": 0.6984
+    }
+  ],
+  "conclusion": "Depth 3-4 is the plateau; 1 layer clearly underfits. No evidence of oversmoothing damage in this range. Default stays at 3."
+}

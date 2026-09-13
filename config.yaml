@@ -1,0 +1,112 @@
+# ---------------------------------------------------------------------------
+# GNN-BERT Music Context Understanding -- master configuration
+# Every script reads this file; override any key from the CLI with --set k=v
+# ---------------------------------------------------------------------------
+
+seed: 42
+device: auto            # auto | cpu | cuda
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  splits: data/splits
+  results: results
+  plots: results/plots
+  retrieval: results/retrieval_examples
+
+# --------------------------------------------------------------------------- 
+# Dataset selection.
+#   source: synthetic | gtzan | fma_small | fma_medium | magnatagatune | musiccaps
+# `synthetic` generates procedurally-composed audio so the whole pipeline is
+# runnable before the real corpora are downloaded. Swap `source` once the raw
+# archives land in data/raw -- nothing else in the pipeline changes.
+# ---------------------------------------------------------------------------
+dataset:
+  source: synthetic
+  n_tracks: 300           # synthetic only
+  # Cap the corpus, stratified by official split x genre, applied BEFORE audio
+  # decoding. 0 = use everything. Set this when CPU-bound: 8,000 FMA clips is
+  # ~1-2 h to preprocess and many hours per task to train without a GPU.
+  subsample: 0
+  clip_seconds: 60.0      # 30 s clips give only 6 segments -- too few to be a graph
+  top_tags: 50            # MagnaTagATune top-K tag subset
+  min_tag_count: 5        # drop tags too rare to score meaningfully
+  text_field: caption     # caption | lyrics | tags | caption+tags
+  # For corpora whose only "text" is their tag set (GTZAN, MagnaTagATune), hand
+  # this fraction of the tag vocabulary to the text branch and predict the rest.
+  # The two sets are disjoint, so the text cannot leak a label. At 0.0 the text
+  # restates the labels and Task 1 scores a meaningless 1.0 -- measured.
+  text_tag_fraction: 0.0
+  # Synthetic only: probability that a caption hedges its genre / mood word
+  # instead of naming it. Real captions rarely restate the tag set verbatim;
+  # at 0.0 the caption *is* the label and BERT-only trivially saturates.
+  label_dropout: 0.5
+  emotion: true           # attach valence/arousal targets (DEAM-style)
+
+audio:
+  sample_rate: 22050
+  n_fft: 2048
+  hop_length: 512
+  n_mels: 128
+  n_chroma: 12
+  n_mfcc: 20
+  segment_seconds: 5.0    # fixed-window segmentation
+  beat_sync: false        # true -> beat-synchronous segments via librosa
+
+graph:
+  kind: segment           # segment | chord | hybrid
+  similarity_threshold: 0.90   # tau for cosine-similarity edges
+  # k-NN backstop, scaled down on small graphs (see graph_builder.effective_knn).
+  # It exists to guarantee connectivity, not to add edges: left at a fixed 4 it
+  # wires a 6-node graph ~95% dense and message passing degenerates to pooling.
+  knn: 4
+  temporal_edges: true    # adjacency edges between consecutive segments
+  self_loops: true
+  undirected: true
+
+text:
+  model_name: distilbert-base-uncased
+  max_length: 32          # tag-list text is short; 128 was ~90% padding
+  freeze_bert: true       # Task 1 unfreezes; fusion keeps last-N layers trainable
+  unfreeze_last_n: 2
+
+gnn:
+  conv: sage              # sage | gat
+  hidden_dim: 128
+  num_layers: 3
+  dropout: 0.2
+  heads: 4                # GAT only
+  readout: mean           # mean | max | mean+max
+
+fusion:
+  mode: cross_attention   # cross_attention | concat | bert_only | gnn_only
+  proj_dim: 256
+  attn_heads: 4
+  dropout: 0.3
+
+contrastive:
+  embed_dim: 256
+  temperature: 0.07
+  learnable_temperature: true
+
+train:
+  epochs: 15
+  batch_size: 16
+  lr: 0.001
+  bert_lr: 0.00002        # discriminative LR for BERT parameters
+  weight_decay: 0.00001
+  grad_clip: 1.0
+  patience: 5             # early stopping on val macro-F1 (or val loss)
+  num_workers: 0
+  alpha_valence: 0.3      # multi-task weight, L = L_tags + a*MSE(v) + b*MSE(a)
+  beta_arousal: 0.3
+
+split:
+  # Prefer the corpus's own partition when it has one (spec section 3 step 5:
+  # official FMA / MagnaTagATune splits). Set false to force the artist-grouped
+  # splitter instead -- artist-disjoint, but not comparable to published numbers.
+  use_official: true
+  train: 0.7              # ratios below apply only to the grouped fallback
+  val: 0.15
+  test: 0.15
+  group_by: artist        # prevent artist leakage across splits

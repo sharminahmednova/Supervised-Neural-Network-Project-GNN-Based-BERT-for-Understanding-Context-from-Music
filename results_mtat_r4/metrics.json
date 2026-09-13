@@ -1,0 +1,60 @@
+{
+  "_provenance": {
+    "corpus": "magnatagatune",
+    "n_tracks": 2636,
+    "num_tags": 25,
+    "graph_kind": "segment",
+    "segment_seconds": 2.5,
+    "split_sizes": {
+      "train": 1842,
+      "val": 426,
+      "test": 368
+    },
+    "split_strategy": "grouped_by_artist",
+    "text_model": "distilbert-base-uncased",
+    "seed": 42
+  },
+  "task4_contrastive": {
+    "tag": "task4_contrastive",
+    "split": "test",
+    "n_pairs": 368,
+    "audio2caption_R@1": 0.013132146386222473,
+    "audio2caption_R@5": 0.0654101672783738,
+    "audio2caption_R@10": 0.10785617236024846,
+    "audio2caption_median_rank": 67.25,
+    "audio2caption_mrr": 0.04951462659877531,
+    "audio2caption_mean_ties": 13.157608695652174,
+    "caption2audio_R@1": 0.010869565217391304,
+    "caption2audio_R@5": 0.051630434782608696,
+    "caption2audio_R@10": 0.10869565217391304,
+    "caption2audio_median_rank": 61.5,
+    "caption2audio_mrr": 0.053441006299976446,
+    "caption2audio_mean_ties": 0.0,
+    "mean_R@1": 0.01200085580180689,
+    "mean_R@5": 0.058520301030491245,
+    "mean_R@10": 0.10827591226708075,
+    "chance_R@1": 0.002717391304347826,
+    "chance_R@5": 0.01358695652173913,
+    "chance_R@10": 0.02717391304347826,
+    "best_val_score": 0.05541668816316704,
+    "best_epoch": 11,
+    "zero_shot_macro_f1": 0.20510247650375138,
+    "zero_shot_micro_f1": 0.21568627450980393,
+    "zero_shot_auc_pr": 0.17423818969330696,
+    "_provenance": {
+      "corpus": "magnatagatune",
+      "n_tracks": 2636,
+      "num_tags": 25,
+      "graph_kind": "segment",
+      "segment_seconds": 2.5,
+      "split_sizes": {
+        "train": 1842,
+        "val": 426,
+        "test": 368
+      },
+      "split_strategy": "grouped_by_artist",
+      "text_model": "distilbert-base-uncased",
+      "seed": 42
+    }
+  }
+}

@@ -1,0 +1,56 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# --- Data -------------------------------------------------------------------
+# Raw corpora (GTZAN 1.1 GB, MagnaTagATune 2.8 GB, FMA up to 22 GB) are never
+# tracked: fetch them with `python tools/fetch_data.py <name> --extract`.
+data/raw/*
+!data/raw/.gitkeep
+
+# Derived graphs are large and fully reproducible from raw + config.
+data/processed*/graphs/
+data/processed*/*.json
+
+# The exported sample graphs ARE tracked for every corpus -- "at least 20
+# example .pt/.json graphs" is a submission item. Negations must re-include the
+# parent directories too, or git never descends into them.
+!data/processed*/
+!data/processed*/samples/
+!data/processed*/samples/**
+
+# Split id lists are tiny but regenerated; keep the directory, not the files.
+data/splits*/*.json
+!data/splits/.gitkeep
+
+# --- Results ----------------------------------------------------------------
+# Keep metrics, tables, plots and the provenance README; drop weights, raw
+# prediction dumps and logs.
+results*/checkpoints/
+results*/*.npz
+results*/*.log
+results*/human_eval/clips/
+
+# --- LaTeX ------------------------------------------------------------------
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
+report/*.fdb_latexmk
+report/*.fls
+
+# Downloaded result bundles -- 1.2 GB, and everything in them is already
+# extracted into results_*/ . GitHub rejects files over 100 MB anyway.
+*.zip
+*.tar.gz
+
+# The listening-study form embeds ~50 audio clips as base64 (24 MB). The
+# ratings and answer key beside it are small and ARE tracked -- they are the
+# evidence behind the human-evaluation table.
+results*/human_eval/rating_form.html
